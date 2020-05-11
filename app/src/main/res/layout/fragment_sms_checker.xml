@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SmsChecker">
+    <Spinner
+        android:id="@+id/spinner"
+        android:entries="@array/defaultValue"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+    </Spinner>
+    <Spinner
+        android:id="@+id/msg_types"
+        android:entries="@array/defaultValue"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+    </Spinner>
+    <EditText
+        android:id="@+id/text_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Rediger votre message ici..."
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+    <Button
+        android:id="@+id/btn_envoi"
+        android:text="Envoi SMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/new_msg_type"
+        android:text="Definir un nouveau message type !"
+        android:background="#44ebe9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

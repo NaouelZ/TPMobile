@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bomber</string>
+
+    <string name="contact_list">Contacts &amp; Stats</string>
+    <string name="sms_check">SMS Check</string>
+    <string name="parameters">Paramètre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
